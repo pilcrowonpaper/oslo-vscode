@@ -96,4 +96,5 @@ fill="{textActivity}" stroke="none">
                 boops: firebase.firestore.FieldValue.increment(1)
             });
         }
+    }
 </script>
