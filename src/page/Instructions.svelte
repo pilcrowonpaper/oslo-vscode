@@ -66,7 +66,7 @@ High Contrast
             <pre>vsce package </pre>
         </div>
         <div class="px-16 py-4 pt-6">
-            <p>That should create a .vsix file. That's your extension, and you can download and share it too. To dowload it: </p>
+            <p>That should create a .vsix file. That's your extension, and you can download and share it too. To download it: </p>
         </div> 
         <div style="background-color:{bgSidebar}" class="rounded-2xl px-16 py-4">
             <pre>code --install-extension [package name] </pre>
