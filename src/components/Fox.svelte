@@ -90,6 +90,8 @@ fill="{textActivity}" stroke="none">
     });
 
     function addBoop() {
-        boopCount.set($boopCount + 1)
+        if ($boopCount != "...") {
+            boopCount.set($boopCount + 1)
+        }
     }
 </script>
