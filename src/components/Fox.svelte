@@ -85,7 +85,7 @@ fill="{textActivity}" stroke="none">
     import firebase from 'firebase/app';
 
     db.collection("pilcrow").doc("boopCount")
-    .onSnapshot((doc) => {
+    .get().then((doc) => {
         boopCount.set(doc.data().boops)
     });
 
