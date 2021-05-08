@@ -90,8 +90,6 @@ fill="{textActivity}" stroke="none">
     });
 
     function addBoop() {
-        db.collection("pilcrow").doc("boopCount").update({
-            boops: firebase.firestore.FieldValue.increment(1)
-        });
+        boopCount.set($boopCount + 1)
     }
 </script>
